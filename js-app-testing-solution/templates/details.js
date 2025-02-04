@@ -4,7 +4,7 @@ import { requests } from '../api/requests.js';
 import page from '../node_modules/page/page.mjs'
 
 
-export function getDetailsView(meme) { // change params with whatever u need
+export function getDetailsView(meme) { 
     return html`
                 <section id="meme-details">
                         <h1>Meme Title: ${meme.title}s</h1>
