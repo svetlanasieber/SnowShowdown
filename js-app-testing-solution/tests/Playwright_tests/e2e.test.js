@@ -1,7 +1,7 @@
 const { test, describe, beforeEach, afterEach, beforeAll, afterAll, expect } = require('@playwright/test');
 const { chromium } = require('playwright');
 
-const host = 'http://localhost:3000'; // Application host (NOT service host - that can be anything)
+const host = 'http://localhost:3000'; 
 
 let browser;
 let context;
