@@ -36,6 +36,7 @@
     }
   }
 
+  
   class RequestError extends ServiceError {
     constructor(message = "Request error") {
       super(message);
